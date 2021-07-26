@@ -23,3 +23,7 @@ to use the project to improve the accuracy of it.
 ###### IMAGES
 
 ![Image1](https://github.com/kumarsai131/AgeAndGenderPrediction/blob/34e5c918b89d203d254ef9d5183ba20213ad0d40/images/ss1.PNG)
+
+![Image2](https://github.com/kumarsai131/AgeAndGenderPrediction/blob/34e5c918b89d203d254ef9d5183ba20213ad0d40/images/ss2.PNG)
+
+![Image3](https://github.com/kumarsai131/AgeAndGenderPrediction/blob/34e5c918b89d203d254ef9d5183ba20213ad0d40/images/ss3.PNG)
