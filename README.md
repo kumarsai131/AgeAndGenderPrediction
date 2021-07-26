@@ -13,10 +13,10 @@ weights and the architecture of the models into the web server so in the future 
 to use the project to improve the accuracy of it. 
 
 * DATESETS
-  * [UTKFace!] (https://www.kaggle.com/jangedoo/utkface-new)
-  * [IMDB-WIKI!] (https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
+  * [UTKFace!](https://www.kaggle.com/jangedoo/utkface-new)
+  * [IMDB-WIKI!](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 * MODELS
-  * [Gender Classifcation] https://drive.google.com/file/d/1l154ZqZQxjp7awSrNykuT-kIYt6mSW08/view?usp=sharing, https://drive.google.com/file/d/1xnqMr9wwsGH6syms_vDVH3yL4TZj7f1x/view?usp=sharing
-  * [Age Prediction] https://drive.google.com/file/d/1BbfZGKHta09DE8aCLktM_yh6wSu1P7Z1/view?usp=sharing, https://drive.google.com/file/d/1EOyWW1UYx3JClyb--YPdXpI8KW7Kj_Pk/view?usp=sharing, https://drive.google.com/file/d/1npMI4U7YPdm9DXISzePkKUDMkAltmkrB/view?usp=sharing
+  * [Gender Classifcation!](https://drive.google.com/file/d/1l154ZqZQxjp7awSrNykuT-kIYt6mSW08/view?usp=sharing) 
+  * [Age Prediction!](https://drive.google.com/file/d/1BbfZGKHta09DE8aCLktM_yh6wSu1P7Z1/view?usp=sharing) 
 
