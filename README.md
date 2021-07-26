@@ -20,3 +20,6 @@ to use the project to improve the accuracy of it.
   * [Gender Classifcation!](https://drive.google.com/file/d/1l154ZqZQxjp7awSrNykuT-kIYt6mSW08/view?usp=sharing) 
   * [Age Prediction!](https://drive.google.com/file/d/1BbfZGKHta09DE8aCLktM_yh6wSu1P7Z1/view?usp=sharing) 
 
+###### IMAGES
+
+![Image1](https://github.com/kumarsai131/AgeAndGenderPrediction/blob/34e5c918b89d203d254ef9d5183ba20213ad0d40/images/ss1.PNG)
