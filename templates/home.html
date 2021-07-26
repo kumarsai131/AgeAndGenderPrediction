@@ -1,0 +1,248 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Age & Gender Prediction</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{%static 'img/favicon.png' %}" rel="icon">
+  <link href="{%static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="{%static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="{%static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="./">PREDICTION USING CNN</a></h1>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="./">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <a href="#cta" class="get-started-btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({%static 'img/slide/slide-1.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">An Authentic prediction <span>of Age & Gender using CNN</span></h2>
+              <p class="animate__animated animate__fadeInUp">I used two different datasets for training of age prediction model and gender prediction model.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({%static 'img/slide/slide-2.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Gender Prediction</h2>
+              <p class="animate__animated animate__fadeInUp">I used Keras API, an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({%static 'img/slide/slide-3.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Age Prediction</h2>
+              <p class="animate__animated animate__fadeInUp">I used ktrain api, a lightweight wrapper for the deep learning library TensorFlow Keras (and other libraries), to help build, train, and deploy neural networks and other machine learning models.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              For the Age prediction model, I used the UTKFace dataset is a large-scale face dataset with a long age span (range from 0 to 116 years old). 
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Dataset has over 20000 images.</li>
+              <li><i class="ri-check-double-line"></i> Used ktrain API to train the model.</li>
+              <li><i class="ri-check-double-line"></i> Ktrain is a lightweight wrapper for keras to train neural networks.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              For the Gender prediction model, I used the IMDB-WIKI dataset, the largest publicly available dataset on the internet.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Dataset has over 200000 images.</li>
+              <li><i class="ri-check-double-line"></i> Dataset is split into Train, Validation and Test.</li>
+              <li><i class="ri-check-double-line"></i> Used sequential model of the Keras API.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span>Django</span>
+              <p>Front-end Python web framework</p>
+              <a href="https://docs.djangoproject.com/en/3.1/" target="_blank">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span>Keras</span>
+              <p>Back-end machine learning algorithm for gender prediction</p>
+              <a href="https://keras.io/api/models/sequential/" target="_blank">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span>TensorFlow</span>
+              <p>An open source machine learning platform.</p>
+              <a href="https://www.tensorflow.org/resources/models-datasets" target="_blank">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span>Ktrain</span>
+              <p>Back-end API for age prediction model</p>
+              <a href="https://github.com/amaiya/ktrain" target="_blank">Find out more &raquo;</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta ">
+      <div class="container" data-aos="fade-up">
+        {% block content %}
+        <div class="text-center ">
+          <h3>Upload Any Image</h3>
+          <p> <form class="cta-btn" action="imageprocess#cta" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input id="image" type="file" name="image" class="ExampleModel btn"/></p>
+          <p><input type="submit" value="Submit"></p>
+        </form>
+        </div>
+        {% endblock content %}
+      </div>
+    </section><!-- End Cta Section -->
+    
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.kaggle.com/jangedoo/utkface-new" target="_blank">Age Dataset</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.kaggle.com/ashishjangra27/gender-recognition-200k-images-celeba/download" target="_blank">Gender Dataset</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://drive.google.com/drive/folders/1N9TZmy5WunvaMRslReW_OzNdjjk227KP?usp=sharing" target="_blank">Models</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/kumarsai131/AgeAndGenderPrediction" target="_blank">Github</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        Designed by using<a href="https://getbootstrap.com/" target="_blank"> Bootstrap</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{%static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{%static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{%static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{%static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{%static 'vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{%static 'vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{%static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{%static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{%static 'vendor/aos/aos.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{%static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
