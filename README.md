@@ -13,7 +13,7 @@ weights and the architecture of the models into the web server so in the future 
 to use the project to improve the accuracy of it. 
 
 * DATESETS
-  * [UTKFace] (https://www.kaggle.com/jangedoo/utkface-new)
+  * [UTKFace] https://www.kaggle.com/jangedoo/utkface-new - automatic!
   * [IMDB-WIKI] (https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 * MODELS
